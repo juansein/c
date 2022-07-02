@@ -10,13 +10,13 @@ struct registro
 };
 // Funcion para crear vector de estructuras dinamico (recibe como parametro el largo del mismo)
 void crear_vector(int );
-// Funcion para incializar los valores de los indices del vector creado (recibe como parametro un puntero al vector y el tamaño del mismo)
+// Funcion para incializar los valores de los indices del vector creado (recibe como parametro un puntero al vector y el tamaÃ±o del mismo)
 void iniciar_vector(struct registro *, int);
 // Funcion recursiva para el ordenamiento del vector (recibe como parametro un puntero al vector, la primera y ultima posicion del mismo)
 void quickSort(struct registro *, int, int);
-// Funcion de ordenamiento del vector con metodo burbuja (recibe como parametro un puntero al vector y el tamaño del mismo)
+// Funcion de ordenamiento del vector con metodo burbuja (recibe como parametro un puntero al vector y el tamaÃ±o del mismo)
 void ord_burbujeo(struct registro *, int);
-// Funcion para imprimir en pantalla los elementos indice del vector (recibe como parametro un puntero al vector y el tamaño del mismo)
+// Funcion para imprimir en pantalla los elementos indice del vector (recibe como parametro un puntero al vector y el tamaÃ±o del mismo)
 void mostrar_vector(struct registro *, int);
 
 
